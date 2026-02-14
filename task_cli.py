@@ -3,7 +3,7 @@ import json
 import datetime as dt
 
 def load_file() -> list[dict]:
-    package = "package.json"
+    package = "tasks.json"
     try:
         with open(package) as file:
             data = json.load(file)
@@ -12,7 +12,7 @@ def load_file() -> list[dict]:
     return data
 
 def save_file(new_task: list[dict]) -> None:
-    package = "package.json"
+    package = "tasks.json"
     with open(package, "w") as file:
         json.dump(new_task,file,indent=4)
 
@@ -99,7 +99,7 @@ if __name__ == '__main__':
     if len(sys.argv) < 2:
         print("Usage: task-tracker-cli <command> [<args>...]")
         exit(1)
-    package = "package.json"
+    package = "tasks.json"
     args = sys.argv[1:]
     command = args[0] if len(args) > 0 else None
     value_1 = args[1] if len(args) > 1 else None
