@@ -4,7 +4,7 @@
 A simple CLI app to track your tasks and manage your to-do list using Python.
 Example solution to the project [Task Tracker CLI](https://roadmap.sh/projects/task-tracker) challenge from [roadmap.sh](https://roadmap.sh)
 
-## Reuirements
+## Requirements
 
 ---
 > - Python 3.10+
