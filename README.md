@@ -1,4 +1,4 @@
-**# Task Tracker CLI
+# Task Tracker CLI
 
 ---
 A simple CLI app to track your tasks and manage your to-do list using Python.
